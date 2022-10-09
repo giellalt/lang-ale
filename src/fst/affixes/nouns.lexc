@@ -1,15 +1,56 @@
 !! Noun inflection
-!  ---------------
+!  ===============
 !! The Aleut language nouns inflect in cases.
 
-LEXICON Cases
- +N+Sg+nom:0   #     ;
- +N+Pl+nom:i   #     ;
- +N+Sg+loc:as  #     ;
- +N+Pl+loc:ias #     ;
- +N+Sg+acc:at  #     ;
- +N+Pl+acc:iat #     ;
-         #:0   Nouns ;
+!! # Noun derivation
 
-! vim: set ft=xfst-lexc:
+
+
+
+!! # Noun inflection
+
+
+LEXICON nv
++N: nvcase ;
++N: nvpx ;
+
+LEXICON nvcase 
++Sg+Abs:%>x̂ # ;
++Du+Abs:%>x # ;
++Pl+Abs:%>n # ;
++Sg+Rel:%>m # ;
++Du+Rel:%>x # ;
++Pl+Rel:%>n # ;
+
+LEXICON nvpx 
++Sg+Abs+PxSg1:%>ng # ;
++Sg+Abs+PxDu1:%>king # ;
++Sg+Abs+PxPl1:%>ngin # ;
++Sg+Rel+PxSg1:%>gan # ;
++Sg+Rel+PxDu1:%>kin # ;
++Sg+Rel+PxPl1:%>ngin # ;
+
++Sg+Abs+PxSg2:%>a # ;
++Sg+Abs+PxDu2:%>kix # ;
++Sg+Abs+PxPl2:%>ngin # ;
++Sg+Rel+PxSg2:%>gan # ;
++Sg+Rel+PxDu2:%>kin # ;
++Sg+Rel+PxPl2:%>ngin # ;
+
++Sg+Abs+PxSg3:%>a # ;
++Sg+Abs+PxDu3:%>kix # ;
++Sg+Abs+PxPl3:%>ngin # ;
++Sg+Rel+PxSg3:%>gan # ;
++Sg+Rel+PxDu3:%>kin # ;
++Sg+Rel+PxPl3:%>ngin # ;
+
+LEXICON nc
++Sg+Abs: # ;
++Du+Abs:%>ix # ;
++Pl+Abs:%>in # ;
++Sg+Rel:%>im # ;
++Du+Rel:%>ix # ;
++Pl+Rel:%>in # ;
+
+
 
