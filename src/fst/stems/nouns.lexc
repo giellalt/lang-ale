@@ -3,6 +3,11 @@
 !! Nouns in the Aleut language are things.
 
 LEXICON Nouns
-noun    Cases   ;
+ulax̂:ula nv "house"  ;
+ulax̂:ulaĝ nc "bearberry" ;
+tayaĝux̂:tayaĝu nv "man" ;
+lagix̂:lagi nv "canada goose" ;
+asxux̂:asxu nv "nail" ;
 
-! vim: set ft=xfst-lexc:
+
+
