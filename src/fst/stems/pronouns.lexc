@@ -3,6 +3,8 @@
 !! Pronouns in the Aleut language are references to things.
 
 LEXICON Pronouns
-pronoun    Cases   ;
+ting+Pron+Sg1+Abs:ting #  ;
+txin+Pron+Sg2+Abs:txin #  ;
+txin+Pron+Sg3+Abs:txin #  ;
 
 ! vim: set ft=xfst-lexc:

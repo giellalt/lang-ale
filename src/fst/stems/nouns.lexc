@@ -3,11 +3,19 @@
 !! Nouns in the Aleut language are things.
 
 LEXICON Nouns
-ulax̂:ula nv "house"  ;
+hanix̂:hani nv "language" ;
+ulux̂:ulu nv "hatch, cockpit" ;
+!ulax̂:ula nv "house"  ; ! commented out for testing
 ulax̂:ulaĝ nc "bearberry" ;
 tayaĝux̂:tayaĝu nv "man" ;
 lagix̂:lagi nv "canada goose" ;
 asxux̂:asxu nv "nail" ;
+anax:anag nc "club" ;
+lax:lag nc "canada goose" ;
+uliix:uliig nc "boot" ;
+hiix:hiig nc "oystercatcher" ;
+nux̂:nuĝ nc "stone, rock" ;
+
 
 
 
