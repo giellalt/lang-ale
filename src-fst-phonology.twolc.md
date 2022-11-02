@@ -2,16 +2,11 @@
 The Aleut morphophonological/twolc rules file !
 =================================== !
 
-* *primus%>s*
-* *primus00*
+* *hani>^A*
+* *hani>i*
 
-*  examples:*
-
-*  examples:*
-
-*  examples:*
-
-*  examples:*
+* *anax>^A*
+* *anag>a*
 
 * * *
 

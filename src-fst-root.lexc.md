@@ -40,6 +40,8 @@ Morphophonology
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
 
+Complex letters
+
 And following triggers to control variation
 
 ## Flag diacritics

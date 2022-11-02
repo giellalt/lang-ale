@@ -634,6 +634,10 @@ The Aleut language adjectives compare.
 Noun inflection
 The Aleut language nouns inflect in cases.
 
+# Noun derivation
+
+# Noun inflection
+
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/affixes/nouns.lexc](https://github.com/giellalt/lang-ale/blob/main/src/fst/affixes/nouns.lexc)</small>
@@ -672,16 +676,11 @@ The Aleut language verbs inflect in persons.
 The Aleut morphophonological/twolc rules file !
 =================================== !
 
-* *primus%>s*
-* *primus00*
+* *hani>^A*
+* *hani>i*
 
-*  examples:*
-
-*  examples:*
-
-*  examples:*
-
-*  examples:*
+* *anax>^A*
+* *anag>a*
 
 * * *
 
@@ -730,6 +729,8 @@ source and target part-of-speech.
 Morphophonology
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
+
+Complex letters
 
 And following triggers to control variation
 
