@@ -3,30 +3,34 @@
 !! =================================== !
 
 Alphabet
- a b c d e f g h i j k l m n o p q r s t u v w x y z æ ø å
- á é ó ú í à è ò ù ì ä ë ö ü ï â ê ô û î ã ý þ ñ ð ß ç
-
- A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å
- Á É Ó Ú Í À È Ò Ù Ì Ä Ë Ö Ü Ï Â Ê Ô Û Î Ã Ý þ Ñ Ð
-
- %>:0 ;
+a b c d e f g h i j k l m n o p q r s t u v w x y z x̂ ĝ
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 
+ %>:0  %^A:a  ;
 
 Sets
 
- Vow = a e i o u y æ ø å 
-       á é ó ú í à è ò ù ì ä ë ö ü ï â ê ô û î ã ý ;
- Cns = b c d f g h j k l m n p q r s t v w x z ð þ ;
+ Vow = a e i o u ;
+ Cns = b c d f g h j k l m n p q r s t v w x z x̂ ĝ ;
  
 Rules
 
-"Deleting stem-final s in s genitive"
- s:0 <=> Vow s %>: _ ;
+"^A realisation in vowelstem px"
+%^A:Vx <=> Vx %> _ ;
+       where Vx in ( a e i o u ) ;
 
-!!€ primus%>s
-!!€ primus00
+"^A realisation in consonantstem px"
+%^A:a <=> Cns: %> _ ;
 
-!!€grís%>s
-!!€grís00
 
-!!$grís%>s
-!!$grís0s
+
+!!€ hani>^A
+!!€ hani>i
+
+!!€ anax>^A
+!!€ anag>a
+
+"Final consonant devoicing"
+Cx:Cy <=> Vow _ .#. ;
+      where Cx in ( g ĝ )
+      	    Cy in ( x x̂ )
+	    matched ;
