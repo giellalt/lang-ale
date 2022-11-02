@@ -11,10 +11,11 @@
 
 
 LEXICON nv
-+N: nvcase ;
-+N: nvpx ;
++N: nv_case ;
++N: nv_px_a ;
++N: px_c_initial ;
 
-LEXICON nvcase 
+LEXICON nv_case 
 +Sg+Abs:%>x̂ # ;
 +Du+Abs:%>x # ;
 +Pl+Abs:%>n # ;
@@ -22,7 +23,12 @@ LEXICON nvcase
 +Du+Rel:%>x # ;
 +Pl+Rel:%>n # ;
 
-LEXICON nvpx 
+LEXICON nv_px_a
++Sg+Abs+PxSg2:%>^A # ;
++Sg+Abs+PxSg3:%>^A # ;
+
+
+LEXICON px_c_initial
 +Sg+Abs+PxSg1:%>ng # ;
 +Sg+Abs+PxDu1:%>king # ;
 +Sg+Abs+PxPl1:%>ngin # ;
@@ -30,14 +36,12 @@ LEXICON nvpx
 +Sg+Rel+PxDu1:%>kin # ;
 +Sg+Rel+PxPl1:%>ngin # ;
 
-+Sg+Abs+PxSg2:%>a # ;
 +Sg+Abs+PxDu2:%>kix # ;
 +Sg+Abs+PxPl2:%>ngin # ;
 +Sg+Rel+PxSg2:%>gan # ;
 +Sg+Rel+PxDu2:%>kin # ;
 +Sg+Rel+PxPl2:%>ngin # ;
 
-+Sg+Abs+PxSg3:%>a # ;
 +Sg+Abs+PxDu3:%>kix # ;
 +Sg+Abs+PxPl3:%>ngin # ;
 +Sg+Rel+PxSg3:%>gan # ;
@@ -45,6 +49,12 @@ LEXICON nvpx
 +Sg+Rel+PxPl3:%>ngin # ;
 
 LEXICON nc
++N: nc_case ;
++N: nv_px_a ;
++N:i px_c_initial ;
+
+
+LEXICON nc_case
 +Sg+Abs: # ;
 +Du+Abs:%>ix # ;
 +Pl+Abs:%>in # ;

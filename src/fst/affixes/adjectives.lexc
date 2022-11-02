@@ -3,9 +3,7 @@
 !! The Aleut language adjectives compare.
 
 LEXICON Comparisons
-+A+pos:0        Cases   ;
-+A+cmp:er       Cases   ;
-+A+sup:est      Cases   ;
++A+Pos+Sg+Abs: # ;
 
 ! vim: set ft=xfst-lexc:
 
