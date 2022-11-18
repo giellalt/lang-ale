@@ -1,8 +1,37 @@
+
 !! Numerals
 !  --------
 !! Numerals in the Aleut language are numbers.
 
 LEXICON Numerals
+ataqan num "1" ;
+aalax num "2" ; ! E
+alax num "2" ; ! A
+qaankun num "3" ; ! E
+qankus num "3" ; ! A
+sichin num "4" ; ! E
+siching num "4" ; ! A
+chaang num "5" ;
+atuung num "6" ;
+uluung num "7" ;
+qamchiing num "8" ;
+siching num "9" ;
+hatix̂ num  "10" ;
+
+aigidim tens "20" ;
+qankudim tens "30" ;
+sichidim tens "40" ;
+chaangidim tens "50" ;
+atuungidim tens "60" ;
+uluungidim tens "70" ;
+qamchiingidim tens "80" ;
+sichiingidim tens "90" ;
+
+LEXICON num
 +Num+Sg+Abs: # ;
+
+LEXICON tens
++Num+Sg+Abs: # ;
+
 
 ! vim: set ft=xfst-lexc:
