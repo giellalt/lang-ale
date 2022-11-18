@@ -3,6 +3,6 @@
 !! Verbs in the Aleut language are actions.
 
 LEXICON Verbs
-verb    Persons   ;
+awa    iv   ;
 
 ! vim: set ft=xfst-lexc:

@@ -2,15 +2,45 @@
 !  ---------------
 !! The Aleut language verbs inflect in persons.
 
+LEXICON iv
++V+Prs:%>ku Persons ;
++V+Prs+Neg:%>laka Negpersons ;
+
 LEXICON Persons
-+V+1sg:en   #   ;
-+V+2sg:et   #   ;
-+V+3sg:e    #   ;
-+V+1pl:ien  #   ;
-+V+2pl:iet  #   ;
-+V+3pl:iet  #   ;
-+V+inf:0    #   ;
-#:0   Nouns   ;
++V+Sg1:%>qing # ; ! E
++V+Sg1:%>q # ; ! A
++V+Sg2:%>x̂txin # ; ! E
++V+Sg2:%>x̂t # ; ! A
++V+Sg3:%>x̂ # ;
++V+Du1:%>n # ; ! E
++V+Du1:%>s # ; ! A
++V+Du2:%>x̂txidix # ;
++V+Du3:%>x # ;
++V+Pl1:%>n # ; ! E
++V+Pl1:%>s # ; ! A
++V+Pl2:%>x̂txichin # ; ! E
++V+Pl2:%>x̂txichix # ; ! A
++V+Pl3:%>n # ; ! E
++V+Pl3:%>s # ; ! A
+
+LEXICON Negpersons
++V+Sg1:%>qing # ; ! E
++V+Sg1:%>q # ; ! A
++V+Sg2:%>x̂txin # ; ! E
++V+Sg2:%>x̂t # ; ! A
++V+Sg3:%>x̂ # ;
++V+Du1:%>ĝin # ; ! E
++V+Du1:%>ĝis # ; ! A
++V+Du2:%>x̂txiix # ;
++V+Du3:%>ĝix # ;
++V+Pl1:%>ĝin # ; ! E
++V+Pl1:%>ĝis # ; ! A
++V+Pl2:%>x̂txichin # ; ! E
++V+Pl2:%>x̂txichix # ; ! A
++V+Pl3:%>ĝin # ; ! E
++V+Pl3:%>ĝis # ; ! A
+
+#:0 Nouns ;
 
 ! vim: set ft=xfst-lexc:
 
