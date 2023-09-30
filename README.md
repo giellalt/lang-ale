@@ -1,6 +1,7 @@
 The Aleut morphology and tools
 ==========================================
 
+![Lemma count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-ale%2Fgh-pages%2Flemmacount.json)
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-ale)](https://github.com/giellalt/lang-ale/issues)
 [![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-ale/main/badge.svg)](https://github.com/giellalt/lang-ale/actions)
 [![License](https://img.shields.io/github/license/giellalt/lang-ale)](https://github.com/giellalt/lang-ale/blob/main/LICENSE)
