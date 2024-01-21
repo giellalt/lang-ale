@@ -1,9 +1,0 @@
-Pronouns
-Pronouns in the Aleut language are references to things.
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/stems/pronouns.lexc](https://github.com/giellalt/lang-ale/blob/main/src/fst/stems/pronouns.lexc)</small>
-
----
-
