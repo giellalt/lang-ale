@@ -1,8 +1,20 @@
 name = "Aleut"
 version = "0.1.0"
 
+# Name of the speller package in various languages.
+# The default is English + autonym:
+[speller.name]
+en = "Aleut spellchecker"
+ale = "Autonym spellchecker"
+
+# Description of the speller package in various languages.
+# The default is English + autonym:
+[speller.description]
+en = "A spellchecker for Aleut, made by members of the language community, and by the Divvun and Giellatekno groups at UiT The Arctic University of Norway"
+ale = "TRANSLATE: A spellchecker for Aleut, made by members of the language community, and by the Divvun and Giellatekno groups at UiT The Arctic University of Norway"
+
 [macos]
 system_pkg_id = "no.divvun.MacDivvun.ale"
 
 [windows]
-system_product_code = "{REPLACE_WITH_REAL_SYSTEM_PROD_CODE}_is1"
+system_product_code = "{10CE296B-6362-45EF-8C6D-BAD5D0E6206A}_is1"
