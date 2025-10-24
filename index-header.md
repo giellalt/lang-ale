@@ -4,7 +4,8 @@
 ![Lemma count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-ale%2Fgh-pages%2Flemmacount.json)
 [![License](https://img.shields.io/github/license/giellalt/lang-ale)](https://github.com/giellalt/lang-ale/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-ale)](https://github.com/giellalt/lang-ale/issues)
-[![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-ale/main/badge.svg)](https://github.com/giellalt/lang-ale/actions)
+[![Build Status](https://builds.giellalt.org/api/badge/lang-ale?label=CI)](https://builds.giellalt.org/pipelines/lang-ale/builds/latest)
+[![Glottolog](https://img.shields.io/badge/Glottolog-green)](https://glottolog.org/resource/languoid/id/aleu1260)
 
 This page documents the work on the **Aleut language model**. 
 
