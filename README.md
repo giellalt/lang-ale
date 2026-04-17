@@ -1,12 +1,12 @@
 The Aleut morphology and tools
 ==========================================
 
-[![Maturity](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-ale%2Fgh-pages%2Fbadgedata%2Ffst-maturity.json)](https://giellalt.github.io/MaturityClassification.html)
-![Lemma count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-ale%2Fgh-pages%2Fbadgedata%2Ffst-lemmacount.json)
+[![Maturity](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-ale%2Fmain%2Fdocs%2Fbadgedata%2Ffst-maturity.json)](https://giellalt.github.io/MaturityClassification.html)
+![Lemma count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-ale%2Fmain%2Fdocs%2Fbadgedata%2Ffst-lemmacount.json)
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-ale)](https://github.com/giellalt/lang-ale/issues)
 [![License](https://img.shields.io/github/license/giellalt/lang-ale)](https://github.com/giellalt/lang-ale/blob/main/LICENSE)
-[![Doc Build Status](https://github.com/giellalt/lang-ale/workflows/Docs/badge.svg)](https://github.com/giellalt/lang-ale/actions)
-[![CI/CD Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-ale/main/badge.svg)](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-ale/main/latest)
+[![Doc build](https://img.shields.io/github/actions/workflow/status/giellalt/lang-ale/docs.yml?logo=github&label=DocCI)](https://github.com/giellalt/lang-ale/actions/workflows/docs.yml)
+[![Build Status](https://builds.giellalt.org/api/badge/lang-ale?logo=buildkite&label=CoreCI)](https://builds.giellalt.org/pipelines/lang-ale/builds/latest)
 
 Download nightly / CI/CD installation packages for testing (contains the core zhfst file(s)):
 
